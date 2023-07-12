@@ -3,7 +3,7 @@
 
 <head>
 
-    <link rel="icon" type="image/png" href="/favicon-alien.ico">
+    <link rel="icon" type="image/png" href="/favicon_nave.ico">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>M.J</title>
+    <title>🇲.🇯 🇩🇪🇻☄️</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -29,16 +29,15 @@
     <div
         class="bg-gradient-to-r from-blue-50 to-fuchsia-100   dark:from-gray-950 dark:to-fuchsia-950
         relative sm:flex sm:justify-center sm:items-center min-h-screen
-         selection:bg-red-500 selection:text-white">
+         selection:bg-red-500 selection:text-white" >
         @if (Route::has('login'))
-            <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+            <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10 hidden">
                 @auth
                     <a href="{{ url('/dashboard') }}"
                         class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
                 @else
                     <a href="{{ route('login') }}"
-                        class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log
-                        in</a>
+                        class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log In</a>
 
                     @if (Route::has('register'))
                         <a href="{{ route('register') }}"
@@ -55,10 +54,11 @@
 
             {{-- --> btn - cambiar tema --}}
             <div class="flex justify-center">
-                <x-button id="toggleThemeButton"
+                <button id="toggleThemeButton"
                     class=" flex items-center justify-center p-2 rounded-xl transition duration-300 ease-in-out focus:outline-none
-                            dark:bg-yellow-800  dark:hover:bg-yellow-200 bg-blue-200 hover:bg-blue-800 ">
-                </x-button>
+                              " style=" color: rgb(0, 153, 255);" >
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/></svg>
+                </button>
             </div>
 
 
@@ -102,7 +102,7 @@
 
                             </div>
 
-                            <div class="mt-5 text-4xl font-extrabold ...">
+                            <div class="mt-5 text-2xl font-extrabold ...">
                                 <span
                                     class="bg-clip-text text-transparent bg-gradient-to-r dark:from-gray-50 dark:to-fuchsia-900
                                 from-gray-950 to-fuchsia-900">
@@ -111,12 +111,12 @@
                             </div>
 
 
-                            <p class="text-gray-900 dark:text-gray-500">Systems engineer | Developer </p>
+                            <p class="text-gray-900 dark:text-gray-500">Systems engineer | Developer ! </p>
 
-                            <p class=" mt-4  text-gray-900 dark:text-white text-xl">
+                            <p class=" mt-4  text-gray-900 dark:text-white text-lg">
                                 Welcome to the world of custom software development! </p>
 
-                            <p class="text-gray-500 dark:text-gray-400 text-md leading-relaxed text-justify">
+                            <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed text-justify">
                                 Do you need innovative and tailored technological solutions that meet your specific
                                 needs?
                                 I am a passionate freelance software developer dedicated to creating customized
@@ -132,7 +132,7 @@
             {{-- -> div-2 --}}
             <div class="mt-7">
                 <div
-                    class=" scale-100 p-6 bg-gray-100 bg-gradient-to-bl from-fuchsia-100 via-transparen
+                    class=" scale-100 p-6 bg-gray-100 bg-gradient-to-bl from-fuchsia-300/50 via-transparen
                     dark:bg-gray-950/50 dark:bg-gradient-to-bl dark:from-fuchsia-700/50 via-transparent
                     dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none
                     flex motion-safe:hover:scale-[1.04] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
@@ -151,7 +151,7 @@
 
                         {{-- --> Iconos logos de exeriencia --}}
 
-                        <div class=" grid grid-cols-3 sm:grid-cols-12 gap-3">
+                        <div class="mt-1 grid grid-cols-3 sm:grid-cols-12 gap-3">
 
                             {{-- !! logo php --}}
                             <div class="sm:col-span-1 flex items-center justify-center ">
@@ -254,7 +254,7 @@
                     {{-- -> div-4 --}}
                     <div
                         class="scale-100 p-6 bg-gray-100 bg-gradient-to-bl from-fuchsia-100 via-transparen
-                        dark:bg-gray-950/50 dark:bg-gradient-to-bl dark:from-fuchsia-950/50 via-transparent dark:ring-1 dark:ring-inset
+                        dark:bg-gray-950/50 dark:bg-gradient-to-bl dark:from-fuchsia-950/50 dark:via-transparent dark:ring-1 dark:ring-inset
                         dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01]
                         transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                         <div>
@@ -265,7 +265,7 @@
                                 {{-- !! icono git-hub --}}
                                 <div class="col-span-2  flex justify-center">
                                     <div
-                                        class=" h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full flex motion-safe:hover:scale-[1.05]">
+                                        class=" h-16 w-16 bg-blue-200 hover:bg-blue-300  dark:bg-blue-400 dark:hover:bg-blue-300 flex items-center justify-center rounded-full flex motion-safe:hover:scale-[1.05]">
                                         <a href="https://github.com/Miller-Jaramillo">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                                                 fill="color-red" class="bi bi-github " viewBox="0 0 16 16">
@@ -279,7 +279,7 @@
                                 {{-- !! icono correo electronico--}}
                                 <div class="col-span-2  flex justify-center">
                                     <div
-                                        class=" h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full flex motion-safe:hover:scale-[1.05]">
+                                        class=" h-16 w-16 bg-orange-200 hover:bg-orange-300 dark:bg-orange-400 dark:hover:bg-orange-300 flex items-center justify-center rounded-full flex motion-safe:hover:scale-[1.05]">
                                         <a href="mailto:millerjaramillo.mj@gmail.com">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                                                 fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
@@ -293,7 +293,7 @@
                                 {{-- !! icono WhatsAp --}}
                                 <div class="col-span-2  flex justify-center">
                                     <div
-                                        class=" h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full flex motion-safe:hover:scale-[1.05]">
+                                        class=" h-16 w-16 bg-green-200 hover:bg-green-300  dark:bg-green-400 dark:hover:bg-green-300 flex items-center justify-center rounded-full flex motion-safe:hover:scale-[1.05]">
                                         <a href="https://api.whatsapp.com/send?phone=573216656606">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                                                 fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -357,19 +357,13 @@
 </html>
 
 
-
 <style>
-    /* Estilos para el modo claro */
-    @media (prefers-color-scheme: light) {
-        .imagen {
-            background-image: url('/img/dev-44-2.png');
-        }
-    }
 
-    /* Estilos para el modo oscuro */
-    @media (prefers-color-scheme: dark) {
-        .imagen {
-            background-image: url('/img/dev-44-3.png');
-        }
-    }
+    .theme-dark {
+  color: #00ccff; /* Color para el tema dark */
+}
+
+.theme-light {
+  color: #00a2ff; /* Color para el tema light */
+}
 </style>
