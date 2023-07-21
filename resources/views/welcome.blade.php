@@ -3,7 +3,7 @@
 
 <head>
 
-    <link rel="icon" type="image/png" href="/favicon_alien.ico">
+    <link rel="icon" type="image/png" href="/favicon-alien.ico">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
