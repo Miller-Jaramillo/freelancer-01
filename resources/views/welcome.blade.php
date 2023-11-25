@@ -111,17 +111,15 @@
                             </div>
 
 
-                            <p class="text-gray-900 dark:text-gray-500">{{__('Systems engineer | Developer !')}} </p>
+                            <p class="text-gray-900 dark:text-gray-500">{{__('Systems engineer | Developer 👽 ')}} </p>
 
                             <p class=" mt-4  text-gray-900 dark:text-white text-lg">
-                                Welcome to the world of custom software development! </p>
+                                ¡Bienvenido al mundo del desarrollo de software personalizado! </p>
 
                             <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed text-justify">
-                                Do you need innovative and tailored technological solutions that meet your specific
-                                needs?
-                                I am a passionate freelance software developer dedicated to creating customized
-                                applications
-                                and systems that drive the growth of your business.
+                                ¿Necesita soluciones tecnológicas innovadoras y personalizadas que satisfagan
+                                sus necesidades específicas? Soy un apasionado desarrollador de software independiente
+                                dedicado a crear aplicaciones y sistemas personalizados que impulsen el crecimiento de su negocio.
                             </p>
                         </div>
                     </div>
@@ -144,7 +142,7 @@
                                 <span
                                     class="bg-clip-text text-transparent bg-gradient-to-r dark:from-gray-50 dark:to-blue-400
                                 from-gray-950 to-blue-800">
-                                    My Expertise
+                                    Mi Experiencia
                                 </span>
                             </div>
                         </div>
@@ -306,15 +304,16 @@
                             </div>
 
                             <p class="mt-10 text-gray-500 dark:text-gray-400 text-md leading-relaxed text-justify">
-                                If you are seeking a dedicated, flexible, and skilled software developer, you have come
-                                to the right place.
-                                Allow me to exceed your expectations and create technological solutions that set you
-                                apart in the competitive digital world
+                                ¿Necesitas un desarrollador de software comprometido, versátil y experto? ¡Has llegado
+                                al lugar adecuado! Estoy aquí para superar tus expectativas y crear soluciones tecnológicas
+                                que te destaquen en el mundo digital.
+
                             </p>
 
-                            <p class="mt-2 text-gray-500 dark:text-gray-400 text-md leading-relaxed text-justify">
-                                Feel free to reach out to discuss your projects and explore how I can help you achieve
-                                the digital success you desire!
+                            <p class="mt-2 text-gray-400 dark:text-gray-400 text-md leading-relaxed text-justify">
+                                No dudes en ponerte en contacto conmigo para hablar sobre tus proyectos.
+                                ¡Trabajemos juntos para lograr el éxito que buscas en el mundo digital!
+
 
                             </p>
 
