@@ -111,7 +111,7 @@
                             </div>
 
 
-                            <p class="text-gray-900 dark:text-gray-500">Systems engineer | Developer ! </p>
+                            <p class="text-gray-900 dark:text-gray-500">{{__Systems engineer | Developer !__}} </p>
 
                             <p class=" mt-4  text-gray-900 dark:text-white text-lg">
                                 Welcome to the world of custom software development! </p>
@@ -322,7 +322,7 @@
                             <h2 class="mt-6 text-md font-semibold text-gray-800 dark:text-gray-100">Email :
                                 millerjaramillo.mj@gmail.com</h2>
                             <h2 class="mt-1 text-md font-semibold text-gray-800 dark:text-gray-100">Phone : + (57)
-                                321-6655506</h2>
+                                321-6656606</h2>
                             <h2 class="mt-1 text-md font-semibold text-gray-800 dark:text-gray-100">Address : Colombia.
                             </h2>
                         </div>
