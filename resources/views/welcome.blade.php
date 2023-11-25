@@ -111,7 +111,7 @@
                             </div>
 
 
-                            <p class="text-gray-900 dark:text-gray-500">{{__Systems engineer | Developer !__}} </p>
+                            <p class="text-gray-900 dark:text-gray-500">{{__('Systems engineer | Developer !')}} </p>
 
                             <p class=" mt-4  text-gray-900 dark:text-white text-lg">
                                 Welcome to the world of custom software development! </p>
